@@ -1,0 +1,24 @@
+h1 {color:yellow; text-transform: uppercase;}
+
+p         { color: yellow; font-size: 18px; font-weight: bold; line-height: 1.5em; }
+
+b         { color: yellow; font-size: 18px; font-weight: bold; line-height: 1.5em; }
+
+div {color: yellow; position:absolute; left: 180px; top: 200px}
+
+h2 {color: yellow; position:absolute; left: 180px; top: 200px}
+
+input {position:absolute; left: 180px;}
+
+select {position:absolute; left: 180px;}
+
+button {position:absolute; left: 268px;}
+
+
+
+body {
+	background:url(zahlen.jpg);
+    background-color: #5874EE;
+	
+	
+}

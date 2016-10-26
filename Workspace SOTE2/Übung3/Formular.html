@@ -1,0 +1,43 @@
+<html>
+<!-- Formular -->
+	<head>
+	
+	<title>Formular</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+	
+	<script type="text/javascript">
+			function manipulieren(text){
+				
+				
+				//Wert aus Input-Feld auslesen
+				var inputfeld = document.getElementById("in");
+				var wert = inputfeld.value;
+				
+				
+				
+				//Elemente einfügen
+				var knoten = document.createElement("h4");
+				var inhalt = document.createTextNode(wert);
+				knoten.appendChild(inhalt);
+				
+				var divi = document.getElementById("container");
+				divi.appendChild(knoten);
+			}
+		</script>
+	
+	</head>
+	
+	
+	<body>
+	
+	<h1>Formular</h1>
+	<h2>Bitte eingeben:</h2>
+	
+	<button onclick="manipulieren('Neuer Text')">Abschicken</button>		
+		<input id="in" type="text" >
+		<div id="container">Eingaben:</div>
+		
+		</body>
+	
+</html>

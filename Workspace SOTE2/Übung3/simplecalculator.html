@@ -1,0 +1,36 @@
+<html>
+<!-- SimpleCalculator -->
+	<head>
+	
+	<title>Einfacher Taschenrechner</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+	<link rel="stylesheet" href="stylecalculator.css" type="text/css">
+	 <script type="text/javascript" src="simplecalculator.js"> </script>
+	</head>
+	
+	<body>
+	
+	<h1>Einfacher Taschenrechner</h1>
+	
+	<p>Erster Operand <input id="zahl1" type="number" name="Erster Operand"></p>
+	<p>Zweiter Operand <input id="zahl2" type="number" name="Zweiter Operand"></p>
+	
+ <select id="Operator">
+            <option value="plus">Plus</option>
+            <option value="minus">Minus</option>
+            <option value="mal">Mal</option>
+            <option value="geteilt">Geteilt</option>
+        </select>
+
+
+<button onclick="berechnen()">Berechnen</button>	
+
+		<div id="container">Ergebnis:</div>
+	<h2 id="ergebnis"></h2>
+	
+	
+	
+	</body>
+	
+	</html>
