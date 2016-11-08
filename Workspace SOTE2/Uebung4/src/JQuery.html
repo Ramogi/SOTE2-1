@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$('#pic').click(function(){
+    	$('#pic1').show(slow);
+    	
+	 })
+	    $('#pic').click(function(){
+	    	$('#pic').hide();
+	    })
+    
+});
+</script>
+<link rel="stylesheet" href="styleunddasgeld.css" type="text/css">
+</head>
+<body>
+<h1>Lebenslauf Andreas Graule</h1>
+	<h2>Daten</h2>
+	
+	<p>Name: Andreas Graule</p>
+	<p>Anschrift: Rheingutstraﬂe 36 78462 Konstanz</p>
+	<p class="Kursivemail">Email: andreas.graule@htwg-konstanz.de</p>
+	
+	<div id = "pic">
+	<img src="ich.jpg"/>
+	
+	</div>
+	
+	<div id = "pic1">
+	<img src="aend.jpg"/>
+	
+	</div>
+	
+	<h2>Ausbildung<h2>
+	
+	
+	<table>
+	
+			<tr ><th>Zeitraum</th><th>Station</th></tr>
+			<tr><td>2000-2010</td><td>Allgemeinbildendes Abitur Kopernikus Gymnasium Wasseralfingen (Abschlussnote 2,0)</th></tr>
+			<tr><td>2010-2011</td><td>Kooperatives Studium Mechatronik EnBW Stuttgart </td></tr>
+			<tr><td>2011-2015</td><td>Bachelorstudium Betriebswirtschaft (KMU) HTW Aalen (Abschlussnote: 1,9)</td></tr>
+			<tr><td>2015</td><td>Masterstudium BWL FACT KU/WFI Ingolstadt </td></tr>
+			<tr><td>2015-2018</td><td>Masterstudium Business Information Technology HTWG Konstanz</td></tr>
+		</table>
+		
+		
+	<h2>Interessen<h2>	
+	<ul>
+			<li class="d¸nn">Lesen</li>
+			<li class="d¸nn">Volleyball</li>
+			<li class="d¸nn">Alle Facetten der IT</li>
+		</ul>
+		
+		<h2>Kontakt</h2>
+		<form action="htwg-konstanz.de">
+			<p>Nachname <input type="text" name="nachname"></p>
+			<p>Vorname <input type="text" name="vorname"></p>
+			
+			<form action="select.html"> 
+		<label>Art des Anliegens: <select name="top5" size="5">
+		<option>Jobangebot</option>
+		<option>nur mal so</option>
+		<option>private Nachricht</option>
+		<option>Sonstiges</option>
+		</select> 
+		</label> 
+		</form>
+			
+			<p>Priorit‰t:	 sehr wichtig <input type="radio" value="sw" name="priority"> wichtig <input type="radio" value="w" name="priority"> eilt nicht <input type="radio" value="en" name="priority"></p>
+			<textarea name="nachricht">Hier Nachricht schreiben</textarea>
+			<input type="submit" value="Abschicken">
+		</form>
+		
+		
+		
+		<p>Referenz: <a href="http://www.klingenmaier.de"> mein bisheriger Arbeitgeber</a> </p>
+</body>
+</html>
