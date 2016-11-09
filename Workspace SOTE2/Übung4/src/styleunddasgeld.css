@@ -1,0 +1,27 @@
+body {
+    background-color: #00cc7a;
+}
+h1 {color:#800040; text-transform: uppercase;}
+
+h2 {color: #19194d; text-transform: uppercase;}
+
+#pic {position:absolute; left: 900px; top:15px;}
+
+#pic1 {position:absolute; left: 1100px; top:15px;}
+
+#spaltenüberschrift {color: #ffff66; background-color: #000033;}
+
+th {
+   border: 1px ;
+   padding: 3px;
+   font-size: 90%;
+   text-align: center;
+   vertical-align: top;
+   background-color: #000033;
+   color: #ffff66;
+}
+
+.Kursivemail {font-style:italic;}
+
+.dünn {color: #000000; font-size:12pt; font-weight:normal; text-transform: none;}
+
