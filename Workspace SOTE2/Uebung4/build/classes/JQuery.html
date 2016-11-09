@@ -1,50 +1,28 @@
-
-
-
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<!-- Lebenslauf A.G. -->
-	<head>
-	
-	<title>Lebenslauf Andreas Graule</title>
-	
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
-	<link rel="stylesheet" href="styleunddasgeld.css" type="text/css">
-	
-		<script src="jquery.js"></script>
-		<script type = "text/javascript">
-			$(document).ready(function(){
-				$('#myButton').click(function(){
-						$('#myDiv').animate(
-						{'font-size' : 50 }, 2000);	
-						
-						$('#pic').slideUp();
-						
-						$('#pic1').slideDown();
-						
-						});
-				});
-			
-			<!--		var text = "{"resource" : { "classname" : "Quote","fields" : {"name" : "USD/KRW","price" : "1128.900024","symbol" : "KRW=X",	"ts" : "1478648583","type" : "currency","utctime" : "2016-11-08T23:43:03+0000","volume" : "0"}}}"-->
-		</script>
-	
-	
-	</head>
-	
-	
-	<body>
-	
-	
-	<h1>Lebenslauf Andreas Graule</h1>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$('#pic').click(function(){
+    	$('#pic1').show(slow);
+    	
+	 })
+	    $('#pic').click(function(){
+	    	$('#pic').hide();
+	    })
+    
+});
+</script>
+<link rel="stylesheet" href="styleunddasgeld.css" type="text/css">
+</head>
+<body>
+<h1>Lebenslauf Andreas Graule</h1>
 	<h2>Daten</h2>
 	
-	<input type = "button" id="myButton" value="Animate" />
-	
-	<div id ="myDiv">
-	Ich bin √Ñnd!!!	
-	</div>
-	
 	<p>Name: Andreas Graule</p>
-	<p>Anschrift: Rheingutstra√üe 36 78462 Konstanz</p>
+	<p>Anschrift: Rheingutstraﬂe 36 78462 Konstanz</p>
 	<p class="Kursivemail">Email: andreas.graule@htwg-konstanz.de</p>
 	
 	<div id = "pic">
@@ -73,9 +51,9 @@
 		
 	<h2>Interessen<h2>	
 	<ul>
-			<li class="d√ºnn">Lesen</li>
-			<li class="d√ºnn">Volleyball</li>
-			<li class="d√ºnn">Alle Facetten der IT</li>
+			<li class="d¸nn">Lesen</li>
+			<li class="d¸nn">Volleyball</li>
+			<li class="d¸nn">Alle Facetten der IT</li>
 		</ul>
 		
 		<h2>Kontakt</h2>
@@ -93,7 +71,7 @@
 		</label> 
 		</form>
 			
-			<p>Priorit√§t:	 sehr wichtig <input type="radio" value="sw" name="priority"> wichtig <input type="radio" value="w" name="priority"> eilt nicht <input type="radio" value="en" name="priority"></p>
+			<p>Priorit‰t:	 sehr wichtig <input type="radio" value="sw" name="priority"> wichtig <input type="radio" value="w" name="priority"> eilt nicht <input type="radio" value="en" name="priority"></p>
 			<textarea name="nachricht">Hier Nachricht schreiben</textarea>
 			<input type="submit" value="Abschicken">
 		</form>
@@ -101,8 +79,5 @@
 		
 		
 		<p>Referenz: <a href="http://www.klingenmaier.de"> mein bisheriger Arbeitgeber</a> </p>
-		
-		
-	</body>
-	
+</body>
 </html>
