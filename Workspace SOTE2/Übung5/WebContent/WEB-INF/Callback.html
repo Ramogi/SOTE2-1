@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Callback</title>
+</head>
+<body>
+
+<h1>Tolle Callbacks</h1>
+
+<p>Drücke diesen Knopf</p>
+
+<button onclick="start()">Drück mich!</button>
+
+<script type="text/javascript">
+
+function a() {
+
+	alert("Ich bin Funktion a");
+	}
+
+function b() {
+
+	alert("Ich bin Funktion b");
+	}
+
+function funktionausführen(einefunktion){
+	
+	einefunktion();
+	
+}
+
+function start(){
+	
+	funktionausführen(a);
+	funktionausführen(b);
+	
+}
+
+
+
+
+</script>
+
+</body>
+</html>

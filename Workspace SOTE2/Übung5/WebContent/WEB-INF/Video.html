@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Video anschauen</title>
+</head>
+<body>
+
+<h1>Meine erste Seite mit Video</h1>
+
+<video id="player" >
+  <source src="Wal explodiert.mp4" type="video/mp4">
+    
+</video>
+ 
+<button id="play">Play</button>
+<button id="pause">Pause</button>
+<button id="duration">Länge anzeigen</button>
+<p id="ausgabe"></p>
+ 
+<script>
+  var song = document.getElementById('player');
+  document.getElementById('play').addEventListener('click', function() { song.play(); }, false);
+  document.getElementById('pause').addEventListener('click', function() { song.pause(); }, false);
+  document.getElementById('duration').addEventListener('click', function() { 
+  document.getElementById('ausgabe').innerHTML = 'Die Dauer des Videos beträgt: '+ song.duration; +' Sekunden.'}, false);
+</script>
+
+
+</body>
+</html>
